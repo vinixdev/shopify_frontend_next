@@ -1,9 +1,75 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Iransans";
+  src: url("/static/fonts/IRANSansWebFaNum.eot");
+  src: url("/static/fonts/IRANSansWebFaNum.eot?#iefix")
+      format("embedded-opentype"),
+    url("/static/fonts/IRANSansWebFaNum.woff2") format("woff2"),
+    url("/static/fonts/IRANSansWebFaNum.woff") format("woff"),
+    url("/static/fonts/IRANSansWebFaNum.ttf") format("truetype"),
+    url("/static/fonts/IRANSansWebFaNum.svg#IRANSansWebFaNum") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Iransans";
+  src: url("/static/fonts/IRANSansWebFaNum-Bold.eot");
+  src: url("/static/fonts/IRANSansWebFaNum-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/static/fonts/IRANSansWebFaNum-Bold.woff2") format("woff2"),
+    url("/static/fonts/IRANSansWebFaNum-Bold.woff") format("woff"),
+    url("/static/fonts/IRANSansWebFaNum-Bold.ttf") format("truetype"),
+    url("/static/fonts/IRANSansWebFaNum-Bold.svg#IRANSansWebFaNum-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Iransans";
+  src: url("/static/fonts/IRANSansWebFaNum-Medium.eot");
+  src: url("/static/fonts/IRANSansWebFaNum-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/static/fonts/IRANSansWebFaNum-Medium.woff2") format("woff2"),
+    url("/static/fonts/IRANSansWebFaNum-Medium.woff") format("woff"),
+    url("/static/fonts/IRANSansWebFaNum-Medium.ttf") format("truetype"),
+    url("/static/fonts/IRANSansWebFaNum-Medium.svg#IRANSansWebFaNum-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Iransans";
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.font-iransans {
+  font-family: "Iransans" !important;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +170,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

@@ -1,0 +1,24 @@
+------------- TODO ---------------------------------------------------
+
+TODO: remember me [].
+TODO: profile page [DONE].
+TODO: with empty basket coupon deleted [].
+TODO: can delete coupon in basket [].
+TODO: use /me for profile and user editing profile [DONE].
+TODO: عدم موجودی کالا.
+
+---------------- BUG ----------------------------------------------
+
+FIXME: coupon on invalidation => cancell previous coupon [].
+FIXME: login/register form [FIXED].
+FIXME: checkout form for checkboxes [FIXED].
+FIXME: checkout form for invalid data [FIXED].
+FIXME: split payment form for new add address and selected address[FIXED]
+FIXME: remove bg with nodejs and make background gray []
+FIXME: fix products grid in home and products page. []
+FIXME: fix check authentication in components. change localstorage to cookie for token of user []
+
+------------- TEST -------------------------------------------------
+
+TEST: use window object first and then check state.user [DONE]
+----------------------------------------------------------------------

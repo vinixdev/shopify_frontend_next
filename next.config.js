@@ -2,7 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost", "www.gravatar.com", "shopify-fnf3.onrender"],
+    // domains: ["localhost", "www.gravatar.com", "shopify-fnf3.onrender"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
 };
 

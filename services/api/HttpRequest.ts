@@ -5,7 +5,7 @@ export default class HttpRequest {
   private instance: Axios;
 
   constructor() {
-    this.baseUrl = "http://localhost:5000";
+    this.baseUrl = "https://shopify-fnf3.onrender.com";
     this.instance = axios.create();
   }
 

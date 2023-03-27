@@ -44,6 +44,7 @@ export const getStaticProps: GetStaticProps = async ({
         products: data.products,
         category: data.category,
       },
+      revalidate: 1,
     };
   } catch (error) {
     return {

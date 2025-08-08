@@ -66,6 +66,6 @@ Follow these instructions to get the Next.js storefront running on your local ma
 
 ### 🔗 Related Repositories
 
-* **Backend**: [github.com/vinixdev/shopify_backend](https://github.com/vinixdev/shopify_backend)
-* **Admin Panel**: [github.com/vinixdev/shopify-admin-panel](https://github.com/vinixdev/shopify-admin-panel)
+* **Backend**: [Backend repo](https://github.com/vinixdev/shopify_backend)
+* **Admin Panel**: [Admin panel repo](https://github.com/vinixdev/shopify-admin-panel)
 

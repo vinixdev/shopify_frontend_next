@@ -2,7 +2,7 @@
 
 Storefront of the Shopify Clone project! This application is built with Next.js for a fast, server-rendered shopping experience.
 
-*This storefront fetches data from our [Backend](https://github.com/vinixdev/shopify_backend) and is managed via the [Admin Panel](https://github.com/vinixdev/shopify-admin-panel).*
+*This storefront fetches data from [Backend](https://github.com/vinixdev/shopify_backend) and is managed via the [Admin Panel](https://github.com/vinixdev/shopify-admin-panel).*
 
 ---
 
